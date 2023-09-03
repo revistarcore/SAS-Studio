@@ -26,9 +26,11 @@ proc sql noprint;
 drop table coretax.detail_pelaporan_v2;
 quit;
 
-/* promotr */
+
 data coretax.detail_pelaporan_v2(promote=yes);
 set final_dataset;
 rename row_number=NO_BARIS;
 drop seed;
 run;
+
+/* edit dari sas nih  */
