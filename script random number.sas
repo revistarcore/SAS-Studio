@@ -32,5 +32,3 @@ set final_dataset;
 rename row_number=NO_BARIS;
 drop seed;
 run;
-
-/* edit dari sas nih  */
