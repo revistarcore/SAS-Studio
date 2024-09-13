@@ -1,0 +1,2 @@
+proc sort data=coba; by id;
+run;
