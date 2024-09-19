@@ -1,2 +1,6 @@
 proc sort data=coba; by id;
 run;
+
+data coba1;
+set coba;
+run;
