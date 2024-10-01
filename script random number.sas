@@ -33,10 +33,12 @@ rename row_number=NO_BARIS;
 drop seed;
 run;
 
-/* test from sas bapenda */
+/* Script ini ditambahakan pada SAS Studio */
 
-/* test from github */
+proc sql print;
+select count(*) from coretax.detail_pelaporan_v2;
+quit;
 
-/* test from github 2*/
+/* Akhir script yang ditambahkan pada SAS Studio */
 
-/* test from sas bapenda  */
+
