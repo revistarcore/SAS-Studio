@@ -49,6 +49,8 @@ quit;
 
 /* Akhir script yang ditambahkan pada Github */
 
+
+
 /* Script ini diedit pada Github pt.2 */
 
 proc sql print;
