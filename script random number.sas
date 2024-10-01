@@ -42,3 +42,8 @@ quit;
 /* Akhir script yang ditambahkan pada SAS Studio */
 
 
+/* Script ini diedit pada Github */
+select max(NO_BARIS) from coretax.detail_pelaporan_v2;
+quit;
+
+/* Akhir script yang ditambahkan pada Github */
