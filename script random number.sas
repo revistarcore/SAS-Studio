@@ -43,6 +43,7 @@ quit;
 
 
 /* Script ini diedit pada Github */
+proc sql print;
 select max(NO_BARIS) from coretax.detail_pelaporan_v2;
 quit;
 
