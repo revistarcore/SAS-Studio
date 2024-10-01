@@ -48,3 +48,11 @@ select max(NO_BARIS) from coretax.detail_pelaporan_v2;
 quit;
 
 /* Akhir script yang ditambahkan pada Github */
+
+/* Script ini diedit pada Github pt.2 */
+
+proc sql print;
+select min(NO_BARIS) from coretax.detail_pelaporan_v2;
+quit;
+
+/* Akhir script yang ditambahkan pada Github pt.2 */
